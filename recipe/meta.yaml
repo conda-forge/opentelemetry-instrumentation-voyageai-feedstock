@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-voyageai" %}
-{% set version = "0.52.1" %}
+{% set version = "0.52.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_voyageai-{{ version }}.tar.gz
-  sha256: 41b1b0e17868d78f12785114b1fb7a1d0812485263369c7f6763ee1a497631ee
+  sha256: 74caedff613823070b71ee9f310f813d68c3809ac01b818e9ec970d1b6c34c28
 
 build:
   noarch: python
